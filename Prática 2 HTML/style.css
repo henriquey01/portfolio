@@ -8,12 +8,21 @@
 body {
         height: 100vh;
         box-sizing: border-box;
-        background-color: rgb(0, 0, 0);
-        color: white;
-}
-
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #00ffea; /* Adiciona uma borda sólida ao redor do conteúdo */
+        border-radius: 10px; /* Bordas arredondadas */
+    }
+    
+    
 .titulo-destaque {
-        color:#22d4fd;
+        color:#00ffea;
 }
 
 .conteudo {
@@ -43,19 +52,31 @@ body {
  }
 
  .botao {
-         background-color: #22d4fd;
-         color:black;
-         width: 280px;
-         text-align: center;
-         border-radius: 16px;
-         font-size: 24px;
-         padding: 21.5px 0;
-         text-decoration: none;
-         font-family: "Montserrat", sans-serif
-           }
-.imagem{
-       max-width: 40%;
-       width: auto;
-}
+        background-color: #00ffea; /* Uma cor mais suave de azul */
+        color: rgb(8, 0, 0); /* Texto em branco para maior contraste */
+        width: 300px; /* Reduzi a largura do botão */
+        text-align: center;
+        border-radius: 8px; /* Bordas menos arredondadas para um visual moderno */
+        font-size: 30px; /* Um tamanho de fonte um pouco menor */
+        padding: 10px 0; /* Reduzi o espaçamento interno vertical */
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+        cursor: pointer; /* Cursor de mão ao passar o mouse */
+    }
+    
+    .botao:hover {
+        background-color: #2186c4; /* Cor mais escura ao passar o mouse */
+    }
+    
+    .imagem {
+        max-width: 40%;
+        width: auto;
+        border: 2px solid #00ffea; /* Bordas sólidas */
+        border-radius: 15px; /* Bordas arredondadas */
+        box-shadow: 0px 2px 6px rgba(255, 0, 0, 0.1); /* Sombra suave */
+        padding: 15px; /* Espaçamento interno */
+    }
+    
         
 
